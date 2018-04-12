@@ -12,20 +12,16 @@ namespace _02
     {
         static void Main(string[] args)
         {
-            StreamReader objReader = new StreamReader("C:\\Users\\gusta\\Downloads\\archivo.txt");
-            string sLine = "";
-            ArrayList arrText = new ArrayList();
+           StreamReader objReader = new StreamReader("C:\\Users\\gusta\\Downloads\\ejemplo.txt");
+            string sline = "";
 
-            while (sLine != null)
+            while (sline != null)
             {
-                sLine = objReader.ReadLine();
-                if (sLine != null)
-                    arrText.Add(sLine);
+                sline = objReader.ReadLine();
+                if (sline != null)
+                   Console.WriteLine(sline);
             }
             objReader.Close();
-
-            foreach (string sOutput in arrText)
-                Console.WriteLine(sOutput);
             Console.ReadLine();
         }
     }
