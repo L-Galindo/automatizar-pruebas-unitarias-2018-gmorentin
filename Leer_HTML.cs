@@ -55,7 +55,7 @@ namespace Leer_HTML
                         totalcomment++;
                     }
 
-                    if (Array.Exists(words, element => element.StartsWith("SELECT"))|| Array.Exists(words, element => element.StartsWith("UPDATE")) || Array.Exists(words, element => element.StartsWith("INSERT")) || Array.Exists(words, element => element.StartsWith("DELETE")))
+                    if (Array.Exists(words, element => element.Contains("SELECT"))|| Array.Exists(words, element => element.Contains("UPDATE")) || Array.Exists(words, element => element.Contains("INSERT")) || Array.Exists(words, element => element.Contains("DELETE")))
                     {
                         sql++;
                         totalsql++;
