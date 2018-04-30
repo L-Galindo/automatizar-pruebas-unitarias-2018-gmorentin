@@ -10,6 +10,7 @@ namespace Split
     {
         public static double mediaAritmetica(int[] vals)
         {
+            string res2 = "";
             double suma = 0;
             double res = 0;
             for (int cont = 0; cont < vals.Length; cont++)
@@ -17,7 +18,9 @@ namespace Split
                 suma = suma + vals[cont];
             }
             res = suma / vals.Length;
-            return res;
+            res2=String.Format("{0:0.0000}", res);
+            Convert.ToDouble(res2);
+            return Convert.ToDouble(res2); 
         }
 
 
@@ -34,17 +37,21 @@ namespace Split
 
         public double mediaGeometrica(int[] vals)
         {
+            string res2 = "";
             double suma = 1;
             for (int cont = 0; cont < vals.Length; cont++)
             {
                 suma = suma * vals[cont];
             }
             double res = raizEnesima(suma, vals.Length);
-            return res;
+            res2 = String.Format("{0:0.0000}", res);
+            Convert.ToDouble(res2);
+            return Convert.ToDouble(res2);
         }
 
         public static double mediaArmonica(int[] vals)
         {
+            string res2 = "";
             double suma = 0;
             double res = 0;
             for (int cont = 0; cont < vals.Length; cont++)
@@ -52,7 +59,10 @@ namespace Split
                 suma = suma + ((double)1 / vals[cont]);
             }
             res = vals.Length / suma;
-            return res;
+            res2 = String.Format("{0:0.0000}", res);
+            Convert.ToDouble(res2);
+            return Convert.ToDouble(res2);
+
         }
     }
 }
