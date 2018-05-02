@@ -1,0 +1,15 @@
+0001: Exito: mediaAritmetica: Calculado = 4.6667:Esperado = 4.6667:Ejecución: 5 ms
+0002: Exito: mediaAritmetica: Calculado = 3:Esperado = 3:Ejecución: 5 ms
+0003: Exito: mediaAritmetica: Calculado = 10.5:Esperado = 10.5:Ejecución: 5 ms
+0004: Falla: mediaGeometrica: Calculado = 5.6569:Esperado = 6.6569:Ejecución: 6 ms
+0005: Exito: mediaGeometrica: Calculado = 0:Esperado = 0:Ejecución: 6 ms
+0006: Exito: mediaGeometrica: Calculado = 4:Esperado = 4:Ejecución: 6 ms
+0007:mediaArmonica Metodo no encontrado
+0008:mediaArmonica Metodo no encontrado
+0009: Falla: mediaAritmetica: Calculado = 5.5:Esperado = 0:Ejecución: 6 ms
+0010: Falla: mediaGeometrica: Calculado = 0:Esperado = Exception
+0011: Exito: mediaAritmetica: Calculado = 0:Esperado = 0:Ejecución: 6 ms
+0012: Exito: mediaGeometrica: Calculado = 0:Esperado = 0:Ejecución: 6 ms
+0013:mediaNoExiste Metodo no encontrado
+Exitoso: 7
+Fallas:3
